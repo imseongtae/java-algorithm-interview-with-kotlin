@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {    
+    "target": "es2016",
+    "lib": ["es2016", "dom"],
+    "module": "commonjs",
+    "types": ["node"],
+    "baseUrl": "./src",
+
+    "isolatedModules": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,    
+  }
+}
