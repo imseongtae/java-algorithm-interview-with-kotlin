@@ -1,5 +1,6 @@
 // Jewels and Stones
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function numJewelsInStones(jewels: string, stones: string): number {
   // 1. 해시 테이블(집합)을 이용하여 jewel 저장
   const jewelSet = new Set<string>();
