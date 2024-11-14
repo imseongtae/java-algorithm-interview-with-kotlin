@@ -27,3 +27,7 @@ function maxDepth(root: TreeNode | null): number {
   // 4. 더 큰 값에 1을 더해 현재 노드까지의 깊이를 반환
   return Math.max(leftDepth, rightDepth) + 1;
 }
+
+const root = [1, null, 2];
+const node = TreeNode(root);
+console.log(maxDepth(node));
