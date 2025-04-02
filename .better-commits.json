@@ -78,6 +78,12 @@
         "label": "docs",
         "hint": "문서 추가/수정",
         "emoji": "📝"
+      },
+      {
+        "value": "(solve)",
+        "label": "solve",
+        "hint": "문제 풀이",
+        "emoji": "👾"
       }
     ]
   },
